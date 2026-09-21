@@ -1,4 +1,4 @@
-# Customer-Facing Airline Disruption Resolution Agent (Assignment 3)
+# Customer-Facing Airline Disruption Resolution Agent
 
 A local, production-grade prototype for an airline disruption customer resolution agent built strictly using the **Assignment 3 Data Pack** (Reference Date: **Wednesday, 23 September 2026**).
 
