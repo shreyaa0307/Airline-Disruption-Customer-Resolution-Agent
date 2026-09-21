@@ -1,0 +1,70 @@
+{
+  "reference_date": "Wednesday, 23 September 2026",
+  "rules": {
+    "cancellation_rebooking_rule": {
+      "id": "RULE-CANC-01",
+      "name": "Cancellation Rebooking Rule",
+      "citation": "Data Pack Section 3: Cancellation Rebooking Rule",
+      "text": "If a flight is cancelled by the airline, the customer is entitled to a free rebooking on the next available flight within 24 hours, or a full refund, customer's choice."
+    },
+    "delay_compensation_rule": {
+      "id": "RULE-DELAY-01",
+      "name": "Delay Compensation Rule",
+      "citation": "Data Pack Section 3: Delay Compensation Rule",
+      "tiers": {
+        "under_3h": {
+          "condition": "delay < 180 minutes (< 3 hours)",
+          "entitlement": "₹500 meal voucher",
+          "text": "Delay under 3 hours: ₹500 meal voucher"
+        },
+        "3h_to_5h": {
+          "condition": "delay >= 180 minutes and <= 300 minutes (more than 3 hours)",
+          "entitlement": "meal voucher + lounge access",
+          "text": "Delay more than 3 hours: meal voucher + lounge access"
+        },
+        "over_5h": {
+          "condition": "delay > 300 minutes (more than 5 hours)",
+          "entitlement": "meal voucher + hotel accommodation, covering only the delayed hours (not a full night's stay)",
+          "text": "Delay more than 5 hours: meal voucher + hotel accommodation, covering only the delayed hours (not a full night's stay)"
+        }
+      }
+    },
+    "refund_processing_rule": {
+      "id": "RULE-REFUND-01",
+      "name": "Refund Processing Rule",
+      "citation": "Data Pack Section 3: Refund Processing Rule",
+      "text": "Refunds for airline-caused cancellations are processed in full within 7 business days. Refunds are issued to the original payment method only."
+    },
+    "fare_difference_rule": {
+      "id": "RULE-FARE-01",
+      "name": "Fare Difference Rule",
+      "citation": "Data Pack Section 3 & 4: Fare Difference Rule & Allowed/Prohibited Actions",
+      "text": "If a customer voluntarily chooses to rebook on a higher-fare flight (not airline-caused), they must pay the fare difference. Agents cannot waive fare differences above ₹1,500 without supervisor approval."
+    },
+    "loyalty_tier_rule": {
+      "id": "RULE-LOYALTY-01",
+      "name": "Loyalty Tier Rule",
+      "citation": "Data Pack Section 3: Loyalty Tier Rule",
+      "text": "Gold and Platinum tier customers get priority rebooking (first access to next-available seats) but no additional compensation beyond the standard policy."
+    },
+    "allowed_vs_prohibited_actions": {
+      "id": "RULE-ACTIONS-01",
+      "name": "Allowed vs. Prohibited Actions for the Agent",
+      "citation": "Data Pack Section 4: Allowed vs. Prohibited Actions",
+      "allowed": [
+        "Rebook the customer on the next available flight within 24 hours at no charge (airline-caused disruption)",
+        "Issue meal vouchers and lounge access per the delay compensation rule",
+        "Arrange hotel accommodation for the delayed-hours portion, where the delay qualifies",
+        "Initiate a refund request for airline-caused cancellations",
+        "Provide the customer’s own booking and flight status information"
+      ],
+      "prohibited": [
+        "Approving any compensation beyond the stated policy amounts",
+        "Waiving a fare difference above ₹1,500",
+        "Making exceptions for non-airline-caused disruptions (e.g., customer missed the flight)",
+        "Handling threats of legal action or formal complaints — must be escalated immediately",
+        "Processing refunds to a different payment method than the original"
+      ]
+    }
+  }
+}

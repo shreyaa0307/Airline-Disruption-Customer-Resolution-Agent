@@ -1,0 +1,83 @@
+[
+  {
+    "pnr": "SK4821X",
+    "customer_id": "CUST-001",
+    "customer_name": "Priya Nair",
+    "segments": [
+      {
+        "segment_id": "SEG-001",
+        "flight_number": "SK-204",
+        "route": "Delhi → Goa",
+        "origin": "Delhi",
+        "destination": "Goa",
+        "date": "Wed 23 Sep 2026",
+        "date_iso": "2026-09-23",
+        "scheduled_departure": "18:40",
+        "status": "Cancelled (operational reasons)",
+        "disruption_type": "cancellation",
+        "disruption_cause": "airline_operational",
+        "delay_minutes": 0,
+        "new_departure": null
+      },
+      {
+        "segment_id": "SEG-002",
+        "flight_number": "Return",
+        "route": "Goa → Delhi",
+        "origin": "Goa",
+        "destination": "Delhi",
+        "date": "Fri 25 Sep 2026",
+        "date_iso": "2026-09-25",
+        "scheduled_departure": "16:20",
+        "status": "Unaffected",
+        "disruption_type": "none",
+        "disruption_cause": "none",
+        "delay_minutes": 0,
+        "new_departure": null
+      }
+    ]
+  },
+  {
+    "pnr": "TR1190B",
+    "customer_id": "CUST-002",
+    "customer_name": "Arvind Kulkarni",
+    "segments": [
+      {
+        "segment_id": "SEG-003",
+        "flight_number": "SK-118",
+        "route": "Mumbai → Bengaluru",
+        "origin": "Mumbai",
+        "destination": "Bengaluru",
+        "date": "Wed 23 Sep 2026",
+        "date_iso": "2026-09-23",
+        "scheduled_departure": "07:10",
+        "status": "Delayed 4h (new departure 11:10)",
+        "disruption_type": "delay",
+        "disruption_cause": "airline_delay",
+        "delay_minutes": 240,
+        "new_departure": "11:10"
+      }
+    ]
+  },
+  {
+    "pnr": "WL7742",
+    "customer_id": "CUST-003",
+    "customer_name": "Meher Kaur",
+    "segments": [
+      {
+        "segment_id": "SEG-004",
+        "flight_number": "SK-305",
+        "route": "Delhi → Hyderabad",
+        "origin": "Delhi",
+        "destination": "Hyderabad",
+        "date": "Wed 23 Sep 2026",
+        "date_iso": "2026-09-23",
+        "scheduled_departure": "14:00",
+        "status": "Delayed 6h (new departure 20:00)",
+        "disruption_type": "delay",
+        "disruption_cause": "airline_delay",
+        "delay_minutes": 360,
+        "new_departure": "20:00"
+      }
+    ]
+  }
+]
